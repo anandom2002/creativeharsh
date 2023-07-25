@@ -10,7 +10,7 @@
   "scripts": {
     "build":"npm install && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js -e js,hbs,img"
+    "start": "nodemon app.js -e js,hbs,img"
   },
   "author": "anand",
   "license": "ISC",
