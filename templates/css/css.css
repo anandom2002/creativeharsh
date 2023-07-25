@@ -45,7 +45,11 @@ h1{
 
 
 /* services */
-
+.services{
+    font-size: xx-large;
+    animation: color_changer 10s ease-in-out 0s;
+    font-weight: 800;
+}
 .services-container{
     /* display: grid; */
 }
@@ -165,7 +169,9 @@ h1{
     font-weight: 1000;
 }
 
-
+.pricing{
+    padding-left: 12%;
+}
 
 
 
@@ -180,7 +186,7 @@ h1{
 }
 .brand-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto ;
     margin: 2% 2% 2% 2%;
     grid-gap: 0px;
     background-image:linear-gradient(to bottom right,rgba(222, 11, 250, 0.849) ,rgba(255, 0, 179, 0.74), rgba(6, 119, 248, 0.822));
